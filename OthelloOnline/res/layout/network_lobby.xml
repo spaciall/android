@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "@drawable/background"
+    >
+
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="Empty Chatting List View" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FF0000"/>
+
+<EditText android:text="Chatting Message" android:id="@+id/ETChattingMessage" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+<Button android:text="Send Chatting Message" android:id="@+id/BTSendChattingMessage" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+<ListView android:id="@+id/LVGameRoom" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<TextView android:text="Empty Game Room List View" android:id="@+id/TVGameRoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FF0000"/>
+<Button android:text="Get Game Room List From Server" android:id="@+id/BTGetGameRoomList" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="Create Othello Game Host" android:id="@+id/BTCreateGameHost" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

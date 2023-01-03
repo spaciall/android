@@ -1,0 +1,102 @@
+None
+None
+None
+None
+[Pos]
+24,13
+[Switch]
+0
+[ID]
+1
+[Action]
+0
+[Move]
+3
+[Data]
+Msg,[나] 여긴 어디지... 나는 누구,지... 아무것도 기억나지 않는다,,,,
+Msg,[나] 좌우지간 지금은 주변을 좀, 살펴봐야겠다,,,,
+SwitchOn,1
+[DataEnd]
+[Pos]
+24,13
+[Switch]
+1
+[ID]
+1
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[???] 이제 정신이 들었나 보군,,,,,
+Msg,[나] 당신은 누구십니까?,,,,,
+Msg,[???] 헉! 아무래도 기억이 나,지 않는가 보군,,,,
+Msg,[???] 문답무용! 이곳의 주변엔, 사람들을 학살하기 좋아하는 제,국의 기사들이 돌아다니고 있다 ,그들과 싸우게!,,
+SwitchOn,2
+[DataEnd]
+[Pos]
+24,13
+[Switch]
+2
+[ID]
+1
+[Action]
+3
+[Move]
+0
+[Data]
+Msg,[???] 이 부근을 돌아다니면 제,국의 기사들이 있을거야 그들을 ,처치하면서 힘을 기르게,,,
+[DataEnd]
+[Pos]
+24,13
+[Switch]
+3
+[ID]
+1
+[Action]
+3
+[Move]
+0
+[Data]
+Msg,[???] 점점 힘을 기르고 있군!, 하지만 아직 부족해!,,,,
+[DataEnd]
+[Pos]
+24,13
+[Switch]
+4
+[ID]
+1
+[Action]
+3
+[Move]
+0
+[Data]
+Msg,[???] 조금만 더 성장하면 되겠,어 !,,,,
+[DataEnd]
+[Pos]
+24,13
+[Switch]
+5
+[ID]
+1
+[Action]
+3
+[Move]
+1
+[Data]
+Msg,[???] 어느정도 전투를 통해 정,신을 차려가고 있는 것 같군,,,,
+Msg,[나] 무슨 말을 하는 지 잘 모,르겠습니다.,,,,
+Msg,[???] 차차 알게 될 걸세. 자,낸 엄청난 힘을 가지고 있으면서,도 아직 그 힘을 다 끌어내고 있,지 못 하고 있군,,
+Msg,[나] 무슨 소린지... 여기의 제,국의 기사들과 싸우다가 죽는 줄, 알았는데 ...,,,
+Msg,[???] 우선 자네를 마을로 텔레,포트 시켜주지 거기서 휴식을 취,하는 게 좋을 것 같군,,,
+ShakeScreen
+ShakeScreen
+ShakeScreen
+SwitchOn,0
+SwitchOff,1
+SwitchOff,2
+SwitchOff,3
+SwitchOff,4
+SwitchOff,5
+MapMove,2,0,16,8
+[DataEnd]

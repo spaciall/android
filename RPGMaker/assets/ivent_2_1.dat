@@ -1,0 +1,135 @@
+
+
+
+
+[Pos]
+14,4
+[Switch]
+0
+[ID]
+19
+[Action]
+3
+[Move]
+0
+[Data]
+Msg,[촌장] 내가 이 마을의 촌장일세,,,,,
+[DataEnd]
+[Pos]
+14,4
+[Switch]
+3
+[ID]
+19
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[촌장] 내가 이 마을의 촌장 일,세,,,,
+Msg,[촌장] 나는 자네를 알고있지 자,네는 무인도에서 왔지? ,,,,
+Msg,[촌장] 그리고... 자네는 거기,서...,,,,
+SwitchOn,4
+[DataEnd]
+[Pos]
+14,4
+[Switch]
+5
+[ID]
+19
+[Action]
+3
+[Move]
+0
+[Data]
+Msg,[촌장] 다시 온 것을 환영하네!,,,,,
+[DataEnd]
+[Pos]
+14,4
+[Switch]
+9
+[ID]
+19
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[촌장] 아! 자네 왔군... 우선, 마을 남쪽 동굴로 가서 힘을 기,르게! 근처에 왕국이 있으니까 ,조심하도록 해!,,
+[DataEnd]
+[Pos]
+14,8
+[Switch]
+4
+[ID]
+1
+[Action]
+0
+[Move]
+3
+[Data]
+Msg,[제이드] 나 제이드를 만났지 !, 하하하 !,,,,
+Msg,[나] 아니! 무인도에서 나를 이, 마을로 텔레포트 시켰던 사람이,다!,,,
+Msg,[제이드] 우리 마을 용병단에 온, 것을 환영하네 여관에서는 푹 ,잤는가?,,,
+Msg,[나] 네... 뭐 그럭저럭...,,,,,
+Msg,[제이드] 자네의 이름은 칸 일세, 자네는 왕국으로 부터 우리마을,을 해방시킬 수 있는 힘을 지니,고 있지,,
+Msg,[나] 칸... 아아... 머리가 혼,란스러워...,,,,
+Msg,[제이드] 역시... 망할 놈의 주,술사가... 자네에게 주문을 걸어,놓았군,,,
+Msg,[제이드] 그러나 뭐 자네의 힘을, 다시 폭발시키기 위해 성심껏 ,노력하지 계속해서 전투를 하면서, 각성해야만 해!,,
+SwitchOn,5
+SwitchOff,4
+[DataEnd]
+[Pos]
+14,8
+[Switch]
+5
+[ID]
+1
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[제이드] 날이 좀 어둑어둑해 진,거 같군...,,,,
+SwitchOn,6
+ScreenDarkEffect,true
+[DataEnd]
+[Pos]
+14,8
+[Switch]
+6
+[ID]
+1
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[제이드] ZZZzzz...,,,,,
+[DataEnd]
+[Pos]
+14,8
+[Switch]
+9
+[ID]
+1
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[제이드] 자네 이름은 칸 이라구,! 나는 2인자.. 자네가 1인자 ,였잖아..!,,,
+[DataEnd]
+[Pos]
+14,12
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+MapMove,2,0,4,14
+[DataEnd]

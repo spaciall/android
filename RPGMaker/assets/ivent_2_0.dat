@@ -1,0 +1,294 @@
+
+
+
+
+[Pos]
+4,4
+[Switch]
+0
+[ID]
+2
+[Action]
+3
+[Move]
+3
+[Data]
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+0
+[ID]
+12
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[여관주인] 자네로군 후후후..., 이곳에 쉬러 온 것 이지?,,,,
+Msg,[나] 저를 아시나요?,,,,,
+Msg,[여관주인] 내 친구녀석에게 이,미 얘기는 들었네. 그러면 하루, 밤 푹 쉬라고!,,,
+ShakeScreen
+ShakeScreen
+ShakeScreen
+SwitchOn,1
+MapMove,2,0,12,4
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+1
+[ID]
+12
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[여관주인] 잘 쉬었다면 마을을, 둘러보고 오도록 해 이곳은 여,관인 것 같지만 숨겨진 용병 길,드다,,
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+3
+[ID]
+12
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[여관주인] 우리 동료가 염려를, 끼쳤군 아아 네가 왜 무인도에,서 싸워야 했고 이리로 와야 했,는지 궁금하지? ,,
+Msg,[여관주인] 일단 마을을 둘러보,다 날이 저물거야 그때 내게 다,시 오면 알려주지,,,
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+6
+[ID]
+12
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[여관주인] 좋아... 이제 자네,가 왜 무인도에 있었는지... 그,리고 왜 여기에 와야 했는지 이,야기 해 주지,,
+Msg,[여관주인] 자네는 원래 우리 길,드의 리더였고 한때 왕국으로 부,터 우리 마을을 앞장서서 지킨 ,용사였다네,,
+Msg,[여관주인] 현재 왕국은 아스칼, 이라는 나쁜 주술사의 꾀임에 ,넘어가 살육과 전쟁을 즐기는 개,판이 되버렸지,,
+Msg,[여관주인] 그리하여 우리 마을,도 안전할 수 없었어 ,,,,
+Msg,[여관주인] 우리 마을이 왕국의, 손에 피바다가 되기 직전 자네,와 우리들이 마을 대대로 내려오,던 비밀의 책을 발견한 걸세!,,
+Msg,[여관주인] 그 책에는 엄청난 전,투의 기술이 담겨 있었고... 우,리들은 그것을 터득하여 왕국으로, 부터 마을을 지켜낼 수 있었네,.,
+Msg,[여관주인] 그 중에서도 자네가, 가장 출중한 실력을 보여 앞장,을 서서 마을을 지켜냈네,,,
+Msg,[여관주인] 그런데 우리 동료 중, 마카 라는 놈이 왕국과 손을 잡,고 배신을 하여 자네가 자는 틈,에 자네를 포박하고 왕국에 넘긴, 걸세,
+Msg,[여관주인] 자네는 주술사 아스,칼에 의해 봉인당했고 그 무인도,에서 조금 떨어진 곳의 비밀 감,옥에 감금당했네,,
+Msg,[여관주인] 그것을 제이드가 몰,래 침투하여 어렵게 자네를 구해, 낸거야.. 자네는 반 수면 상태,로 봉인 감금 되어 있었으니 기,억이 잘 나지 않겠지.. 그래서 ,무인도에서 자네의 힘을 깨울 겸, 제국의 기사들과 전투를 벌이게, 한 걸세!,
+Msg,[여관주인] 무인도에서 제국의 ,기사들과 싸우게 한 것도 자네의, 힘을 깨우는데 조금이나마 도움,이 될 까봐 해서 였던걸세 ,,
+Msg,[여관주인] 그럼 밤이 늦었으니, 일단 자고 다음에 얘기하세-,,,,
+SwitchOn,7
+MapMove,2,0,12,4
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+7
+[ID]
+12
+[Action]
+0
+[Move]
+3
+[Data]
+WaitOneSecond
+ScreenDarkEffect,false
+SwitchOn,8
+[DataEnd]
+[Pos]
+16,4
+[Switch]
+8
+[ID]
+12
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[여관주인] 자네는 우리 마을의, 소중한 인재일세 힘을 기르게!, 우선 촌장에게 다시 가보게! 힘,을 기르기에 적합한 장소를 알려, 줄거야!,
+SwitchOn,9
+[DataEnd]
+[Pos]
+24,4
+[Switch]
+0
+[ID]
+17
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[목사] 우리 교회는 수시 기부를, 받고 있습니다 ,,,,
+[DataEnd]
+[Pos]
+2,6
+[Switch]
+0
+[ID]
+5
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[기사] ZZZzzz...,,,,,
+[DataEnd]
+[Pos]
+6,6
+[Switch]
+0
+[ID]
+3
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[기사] ZZZzzz...,,,,,
+[DataEnd]
+[Pos]
+6,6
+[Switch]
+1
+[ID]
+3
+[Action]
+0
+[Move]
+0
+[Data]
+Msg,[나] 어디선가 누군가 다가오는, 소리가 들리는 것 같다.,,,,
+TargetPos,10,8
+TargetPos,16,10
+SwitchOn,2
+[DataEnd]
+[Pos]
+6,6
+[Switch]
+2
+[ID]
+3
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[기사] 아... 드디어 돌아왔군,...,,,,
+Msg,[여관주인] 그렇다네... 우리들,의 희망이 돌아왔지...,,,,
+Msg,[기사] 이 사람의 힘을 깨우기 ,위해서 어떻게 할 예정인가?,,,,
+Msg,[여관주인] 우선 제이드를 만나,야겠지,,,,
+Msg,[기사] 그렇군... 반드시 다시, 힘을 각성하여야 할 텐데!,,,,
+SwitchOn,3
+[DataEnd]
+[Pos]
+6,6
+[Switch]
+3
+[ID]
+3
+[Action]
+3
+[Move]
+1
+[Data]
+Msg,[기사] 자네가 어서 빠르게 원래,의 힘을 되찾기를 바라네,,,,
+[DataEnd]
+[Pos]
+2,14
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,상자는 단단히 잠기어 있다.,,,,,
+[DataEnd]
+[Pos]
+6,14
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[나] 왠지 지금은 올라갈 수 없,는 것 같다,,,,
+[DataEnd]
+[Pos]
+6,14
+[Switch]
+3
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+MapMove,2,1,14,10
+[DataEnd]
+[Pos]
+14,14
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[나] 아직 나가면 안될 것 같다,,,,,
+[DataEnd]
+[Pos]
+14,14
+[Switch]
+3
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+MapMove,3,0,16,4
+[DataEnd]
+[Pos]
+20,14
+[Switch]
+0
+[ID]
+10
+[Action]
+3
+[Move]
+3
+[Data]
+[DataEnd]
+[Pos]
+22,14
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[주술사] 여기서 당신의 운과 앞,날을 점칠 수 있습니다,,,,
+[DataEnd]

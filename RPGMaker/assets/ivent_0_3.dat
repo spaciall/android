@@ -1,0 +1,32 @@
+도적
+None
+None
+None
+[Pos]
+24,12
+[Switch]
+0
+[ID]
+4
+[Action]
+3
+[Move]
+3
+[Data]
+Msg,[제국의 기사] ZZZzzz...,,,,,
+Msg,[나] 제국의 기사가 한 명 졸고, 있다. 보아아니 이 곳을 지키는, 녀석 같은데 일단 여기는 나중,에 다시 와 봐야 할 것 같다!,,
+ChrMove,Down
+[DataEnd]
+[Pos]
+2,14
+[Switch]
+0
+[ID]
+24
+[Action]
+3
+[Move]
+3
+[Data]
+MapMove,1,4,19,9
+[DataEnd]
